@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pr 6 css</title>
+    <meta name="author" content="Vodolazhskiy V.V. 529st">
+    <style>
+        h1{
+            margin-left: 15%;
+        }
+        .inner-wrapper{
+            border: 2px solid #00008B;
+            width: 1300px;
+            border-radius: 10px;
+            margin: 15px auto 10px;
+            padding-left: 20px;
+            padding-right: 10px;
+        }
+        #color h2{
+            color: #00008B;
+        }
+        #color span{
+            color: gold;
+        }
+
+        #margin-padding p {
+            padding: 10px 20px 10px 10px;
+            border: 3px solid gold;
+            margin-right: 3%
+        }
+        #width-height {
+            margin-top: 2%;
+            height: 40em;
+            width: 900px
+        }
+        #width-height p{
+            background: orange;
+            margin-left: 1.5%;
+        }
+
+    </style>
+</head>
+<body>
+<h1>CSS селектори, комбінування селекторів та базові
+    властивості.</h1>
+<div id="color" class="inner-wrapper">
+    <h2>CSS колір тексту color</h2>
+    <div>
+        <p style="color: orange">
+            <span>Перший параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+        <p style="color: blue">
+            <span>Другий параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+        <p style="color: orangered">
+            <span>Третій параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+    </div>
+</div>
+<div id="margin-padding" class="inner-wrapper">
+    <h2>CSS внутрішні та зовнішні відступи margin та
+        padding</h2>
+    <div>
+        <p>
+            <span>Перший параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+        <p style="padding: 10px 20px 10px 40px;border: 3px solid navy; margin-right: 5%; margin-left: 2%">
+            <span>Другий параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+        <p>
+            <span>Третій параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+    </div>
+</div>
+<div id="width-height" class="inner-wrapper">
+    <h2>CSS висота та ширина width, height</h2>
+    <div>
+        <p style="width: 33%; height: 14em">
+            <span style="margin-left: 3%">Перший параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+        <p style="width: 85%; height: 5em">
+            <span style="margin-left: 1%">Другий параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+        <p style="width: 63%; height: 14em; padding-right: 3%">
+            <span style="margin-left: 1.5%">Третій параграф.</span>
+            Nulla sed quam at ipsum imperdiet lacinia.
+            Vestibulum ullamcorper orci sit amet ligula iaculis,
+            suscipit maximus ex tincidunt. Maecenas quis
+            arcu dui. Proin semper velit volutpat neque fermentum porta.
+        </p>
+    </div>
+</div>
+</body>
+</html>
