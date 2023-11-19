@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pr 8 text style</title>
+    <meta name="author" content="Vodolazhskiy V.V. 529st">
+    <style>
+        header {
+            height: 20em;
+            background: url("https://i.redd.it/ty9nrcryqoa21.jpg") bottom;
+            background-size: cover;
+        }
+
+        header h1 {
+            font-size: 5ex;
+            font-family: "Tahoma", serif;
+            padding-left: 20px;
+            color: whitesmoke;
+            text-align: left;
+            padding-top: 7em;
+        }
+
+        .description {
+            font-family: "Times New Roman", serif;
+            font-size: 110%;
+            padding: 20px 300px 20px 300px;
+            text-align: center;
+        }
+
+        h4 {
+            font-family: Arial, serif;
+            font-variation-settings: 'wght' 800;
+        }
+        .full_form {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1200px
+        }
+
+        .main_form {
+            font-family: Arial, serif;
+            background-color: rgb(255, 255, 255);
+            margin: 0 40px 40px 40px;
+            padding: 10px;
+        }
+
+        .head_form {
+            border-radius: 10px 10px 0 0;
+            background-color: lightgray;
+            font-size: 150%;
+            text-align: center;
+            border-bottom: 5px darkviolet solid;
+            padding-top: 0.5%;
+        }
+
+        .check_form {
+            display: flex;
+            padding-bottom: 12px;
+        }
+
+        .interest_form {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 12%;
+        }
+
+        .right_lab {
+            padding-left: 20px;
+            margin-left: 4em;
+        }
+
+        .input {
+            padding: 15px 350px 15px 15px;
+            border: 1px rgb(200, 200, 200) solid;
+            border-radius: 5px;
+            background-color: rgb(235, 235, 235);
+        }
+
+        .date {
+            padding: 15px 400px 15px 7px;
+            border: 1px rgb(200, 200, 200) solid;
+            border-radius: 5px;
+            background-color: rgb(235, 235, 235);
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .submit {
+            margin-top: 15px;
+            padding: 5px;
+            border: 1px rgb(200, 200, 200) solid;
+            border-radius: 5px;
+            background-color: rgb(235, 235, 235);
+        }
+
+        .comment {
+            padding: 15px 900px 150px 15px;
+            border: 1px rgb(200, 200, 200) solid;
+            border-radius: 10px;
+            background-color: rgb(230, 230, 230);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>
+        Future First Social Hub
+    </h1>
+</header>
+<main>
+    <p class="description">
+        Vestibulum a molestie enim, pretium maximus risus. Quisque eget dolor dui. Nunc viverra mollis nunc, ut
+        semper nibh ullamcorper et. Praesent ac est ante. In semper, sem eu vehicula ultricies, lorem est ornare
+        tellus, non convallis est est eu magna. Vestibulum tincidunt pulvinar tincidunt. Duis ut tincidunt sapien.
+    </p>
+    <div class="full_form">
+        <form>
+            <div class="head_form">
+                <h5>Member registration</h5>
+            </div>
+            <div class="main_form">
+                <h4>About yourself</h4>
+                <div class="check_form">
+                    <div class="left_lab">
+                        <label class="label" for="fname">First name</label>
+                        <input class="input" type="text" id="fname" name="fname" value="" placeholder="First name">
+                    </div>
+                    <div class="right_lab">
+                        <label class="label" for="lname">Last name</label>
+                            <input class="input" type="text" id="lname" name="lname" value="" placeholder="Last name">
+                        </div>
+                </div>
+
+                <div class="check_form">
+                    <div class="left_lab">
+                        <label class="label" for="address">Email address</label>
+                            <input class="input" type="email" id="address" name="Email address" value=""
+                                   placeholder="Email address">
+                    </div>
+
+                    <div class="right_lab">
+                        <label class="label" for="Confirm email address">Confirm email address</label>
+                            <input class="input" type="email" id="Confirm email address" name="Confirm" value=""
+                                   placeholder="Confirm email address">
+                    </div>
+                </div>
+
+                <div class="check_form">
+                    <div class="left_lab">
+
+                    <label class="label" for="Password">Password</label>
+                        <input class="input" type="password" id="Password" name="Password" value=""
+                               placeholder="Password">
+                    </div>
+
+                <div class="right_lab">
+                        <label class="label" for="Confirm password">Confirm password</label>
+                            <input class="input" type="password" id="Confirm password" name="Confirm password" value=""
+                                   placeholder="Confirm password">
+                    </div>
+                </div>
+
+                <div class="check_form">
+                    <div class="left_lab">
+                    <label class="label" for="Number phone">Number phone</label>
+                            <input class="input" type="number" id="Number phone" name="Number phone" value=""
+                                   placeholder="Number phone">
+                    </div>
+                    <div class="right_lab">
+                        <label class="label" for="date">Date of berth</label>
+                            <input class="date" type="date" id="date" name="Date of berth" value=""
+                                   placeholder="Date of berth">
+                    </div>
+                </div>
+
+                <div class="interest_form">
+                    <label class="label">Areas of interest
+                    <input type="checkbox" id="interest1"
+                           value="Bike">
+                    </label>
+                    <label class="label" for="interest1"> Exploration</label>
+
+                    <input type="checkbox" id="interest2"
+                           value="Car">
+                    <label class="label" for="interest2"> Bounty hunt</label>
+
+                    <input type="checkbox" id="interest3"
+                           value="Boat">
+                    <label class="label" for="interest3"> Trade</label>
+                </div>
+
+                <div>
+                    <label class="label" for="comments">Additional comments</label>
+                        <input class="comment" id="comments" name="comments">
+                </div>
+
+                <input class="submit" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</main>
+
+</body>
+</html>
